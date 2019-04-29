@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/doubujizi/justDemo.git
+          username: 1018685896@qq.com
+          password: doubujizi123
+server:
+  port: 1201
